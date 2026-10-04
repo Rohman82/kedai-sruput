@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-script: "Dancing Script", cursive;
+  --color-ink: #140d09;
+  --color-card: #1d140f;
+  --color-line: #3a2a20;
+  --color-accent: #c08a5a;
+  --color-cream: #f3e9df;
+  --color-mute: #a8978a;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.5rem;
+}
+body {
+  background: var(--color-ink);
+  color: var(--color-cream);
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
