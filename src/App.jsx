@@ -111,7 +111,7 @@ function Hero() {
   const h = site.hero;
   return (
     <section className="relative isolate overflow-hidden">
-      <img src="/img/background.png" alt="" className="absolute inset-0 -z-20 h-full w-full object-cover object-right" />
+      <img src="/img/background.jpg" alt="" className="absolute inset-0 -z-20 h-full w-full object-cover object-right" />
       <div className="absolute inset-0 -z-10 bg-linear-to-r from-ink via-ink/80 to-ink/20" />
       <div className="mx-auto max-w-6xl px-4 py-24 md:py-36">
         <Kicker>{h.kicker}</Kicker>
