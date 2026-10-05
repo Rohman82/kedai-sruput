@@ -9,7 +9,7 @@ export default {
   hero: {
     kicker: "Kuat. Halus. Pas.",
     title: "Nggak Ngopi,",
-    accent: "NGGAK HAPPY.",
+    accent: "Nggak Happy.",
     desc: "Kok bisa ada orang yang menjalani hari tanpa ngopi. Diseduh dari biji pilihan, dibuat dengan sepenuh hati.",
     badges: [
       ["bean", "Biji Pilihan"],
